@@ -49,6 +49,7 @@ html{
     display: flex;
     align-items: flex-start;
     gap:10px;
+    padding: 1vw 0;
 }
 
 .column-33{
@@ -123,5 +124,9 @@ html{
     padding: 3px 2px;
     bottom:15%;
     left: 17%;
+}
+
+.sustain.line-start{
+    left:0;
 }
 
