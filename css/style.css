@@ -48,12 +48,13 @@ html{
 .row{
     display: flex;
     align-items: flex-start;
-    gap:10px;
     padding: 1vw 0;
+    flex-wrap: wrap;
 }
 
 .column-33{
     width: calc(100%/3);
+    padding: 15px 10px;
 }
 
 .card{
@@ -61,6 +62,10 @@ html{
 }
 
 /*TEXT FORMAT*/
+
+.navbar{
+    font-size: 1vw;
+}
 
 .text{
     line-height: 1.5vw;
@@ -91,7 +96,11 @@ html{
 }
 
 .main-header img{
-    max-width: 100px;
+    max-width: 10vw;
+}
+
+.icon{
+    width: 2vw;
 }
 
 /*MAIN*/
@@ -101,7 +110,7 @@ html{
     bottom:15%;
 }
 
-.card-foreground .like{
+.like{
     position: absolute;
     background-color: white;
     color: black;
