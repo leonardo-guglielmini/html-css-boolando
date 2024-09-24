@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+/*LAYOUT*/
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+.main-header ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+/*HEADER*/
+.main-header{
+    background-color: #ff6900;
+}
+
+.main-header img{
+    max-width: 100px;
+}
