@@ -76,6 +76,14 @@ html{
     font-weight: bold;
 }
 
+.footbar p{
+    font-size: 1.5vw;
+}
+
+.footbar .legal{
+    font-size: 1vw;
+}
+
 /*HEADER*/
 .main-header{
     background-color: #ff6900;
@@ -88,7 +96,12 @@ html{
 
 /*MAIN*/
 
-.like{
+.card-foreground{
+    position: absolute;
+    bottom:15%;
+}
+
+.card-foreground .like{
     position: absolute;
     background-color: white;
     color: black;
@@ -97,12 +110,11 @@ html{
     text-align: center;
     font-size: 2vw;
     padding: 2px 2px;
-    top:2%;
-    right: 0;
+    bottom:31vw;
+    left: 22.5vw;
 }
 
 .discount{
-    position: absolute;
     background-color: red;
     color: white;
     width: 4vw;
@@ -110,11 +122,9 @@ html{
     text-align: center;
     font-size: 1vw;
     padding: 3px 2px;
-    bottom:15%;
 }
 
 .sustain{
-    position: absolute;
     background-color: green;
     color: white;
     width: 8vw;
@@ -122,11 +132,31 @@ html{
     text-align: center;
     font-size: 1vw;
     padding: 3px 2px;
-    bottom:15%;
-    left: 17%;
 }
 
 .sustain.line-start{
     left:0;
 }
 
+/*FOOTER*/
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding:20px 0;
+}
+
+.footbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal{
+    display: flex;
+    gap: 10px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
